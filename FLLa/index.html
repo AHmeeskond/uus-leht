@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ArheoTuvastaja: Galerii</title>
+    <link rel="stylesheet" href="styles.css"> 
+</head>
+<body>
+
+    <header class="main-header">
+        <div class="header-content">
+            <h1>ArheoTuvastaja: Galerii 🏛️</h1>
+            <p>Vali näidisgaleriist pilt, mis sarnaneb sinu leiule, ja saa kohene ülevaade selle olemusest ja ajastust.</p>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="gallery-section">
+            <h2>Vali oma leiule sarnane ese galeriist:</h2>
+            <div class="gallery-grid" id="gallery-grid">
+                
+                <div class="artifact-option" data-id="1" data-title="Pronkskirves" data-full-description="Pronksiaeg on esiaja keskmine põhiaeg kiviaja ja rauaaja vahel. Eri piirkondades dateeritakse pronksiaja kestus erinevalt. See algas, kui tähtsaima tööriistamaterjalina tuli kasutusele pronks. Ajastu lõpp paigutatakse aga perioodi, kus raud hakkas oma tähtsuselt pronksi ületama. Pronksiajal jätkus maaviljeluse areng ja levimine, koos sellega muutus asustus paiksemaks ja rajati kindlustatud asulaid. Arenes kaubitsemine. Võeti kasutusele uusi tööriistu (putkkirves), relvi (mõõk) ja ehteid (sõlg). Rohkenes matmine kääbaskalmistuisse, nooremal pronksiajal levis surnute põletamine. Hilisel pronksiajal hakkas stepialadele sugenema rändkarjakasvatus. Arenenumates piirkondades oli juba tekkinud või tekkimas riik.">
+                    <img src=data:image/jpeg;base64,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 alt="Pronkskirves">
+                    <p>Pronkskirves</p>
+                </div>
+
+                <div class="artifact-option" data-id="2" data-title="Sõlg" data-full-description="Sõlg on siledaservaline, üldjuhul metallist (luust või muust materjalist sõled on erandlikud) rõivakinnitusvahend ja rinnaehe, tuntud alates pronksiajast. Koosneb sõlekehast ja kinnitusnõelast. Aegade jooksul on muutunud sõlgede kuju ja kaunistused, samuti erinesid nad piirkonniti. Materjalide hulgas on esindatud kõik metallid, kuld, hõbe, pronks, vask, raud, uusimal ajal ka uushõbe või muu sulammaterjal.">
+                    <img src="path/to/solg.jpg" alt="Sõlg">
+                    <p>Sõlg</p>
+                </div>
+
+                <div class="artifact-option" data-id="3" data-title="Keraamika killud" data-full-description="Kammkeraamika on keraamika stiil, mis oli levinud neoliitilises Kirde-Euroopas ja mille järgi on saanud nime seda valmistanud kammkeraamika kultuur. Eestis valmistati kammkeraamikat aastatel 3900–1750 eKr, kusjuures tüüpilist kammkeraamikat valmistati 3900–3100 eKr ja hilist kammkeraamikat 3700–1750 eKr.[1][2] Kammkeraamika ei olnud esimene keraamika tüüp, mida Eesti alal valmistama hakati. Sellele eelnes Narva tüüpi keraamika (5200–3900 eKr). Kammkeraamika kultuuri kiire ja ulatuslikul alal välja kujunemise taga nähakse sisserändeid Eestisse ida poolt, ent kindlasti oli oluline ka kohalike elanike roll. Eelnenud Narva kultuuri inimeste osalusele kultuuri väljakujunemisel viitavad varasemate lokaalsete keraamikarühmade, Eesti puhul Narva tüüpi keraamika, mõjud tüüpilise kammkeraamika valmistamisel. Hilise kammkeraamikaga samal ajal valmistati ka nöörkeraamikat (2800–2000 eKr), kusjuures kamm- ja nöörkeraamikat valmistanud inimesed elasid kõrvuti sadu aastaid, ent olid erineva asustus- ja majandusviisiga.">
+                    <img src="path/to/keraamika_killud.jpg" alt="Keraamika killud">
+                    <p>Keraamika killud</p>
+                </div>
+
+                <div class="artifact-option" data-id="4" data-title="Viikingite mõõk" data-full-description="Viikingimõõk ehk karoling oli varakeskajal Lääne- ja Põhja-Euroopas levinud mõõgatüüp. Viikingimõõk ehk karolingide mõõk arenes välja 8. sajandil merovingide mõõgast, mis kujult ja dünaamikalt sarnanes Rooma ratsaväe spathaga ja pani omakorda aluse kõrgkeskaegsele rüütlimõõgale. Skandinaavia teadlane Jan Petersen on koostanud viikingimõõkade tüpoloogia, mida kasutatakse laialdaselt siiani kogu Euroopas. Peterseni tüpoloogia järgi on enamik varase viikingiaja Eesti territooriumil leitud mõõkadest H-tüüpi. Huvitav on fakt, et Peterseni tüüp AE viikingimõõkasid kasutati siinkandis veel paar sajandit hiljem, pärast viikingiaega, eestlaste muistse vabadusvõitluse perioodil.[1] Petersen töötas välja viikingimõõkade tüpoloogia,[2] mida kasutatakse siiani laialdaselt kogu maailmas nende klassifitseerimiseks, dateerimiseks ja ajaloouuringutes. Viikingimõõkade ehituse iseärasuseks on keeduterase (võltsdamaskuse) tehnoloogia kasutamine, sest kvaliteetset terast tollal nappis ja seda toodi Euroopasse peamiselt Kesk-Aasiast, kus leiutati ja võeti 8. sajandil kasutusele tiigelahjudega rauasulatus.">
+                    <img src="path/to/viikingimoõk.jpg" alt="Viikingite mõõk">
+                    <p>Viikingite mõõk</p>
+                </div>
+
+                <div class="artifact-option" data-id="5" data-title="Tulekivi" data-full-description="Kiviaeg on muinasaja periood enne metallide töötlemise leiutamist, mil inimesed valmistasid tööriistu (parema tehnika puudumisel) enamasti kivist. Kivi, mida tööriistade valmistamiseks kasutati, võis olla tulekivi, obsidiaan, mõni kiltkivi või mõni kristalliin kivi. Kiviaeg on palju pikem kui kõik teised inimkonna ajaloo perioodid ning selles osalesid mitmed inimese bioloogilised liigid. Kiviaja alguseks loetakse tavaliselt hetke, mil inimese tehnika ületas šimpansi oma. Kiviaja kronoloogilised piirid ei ole üheselt kindlaks määratud. Nad on vaieldavad ja sõltuvad piirkonnast, millega on tegemist. Üldiselt siiski arvatakse, et kiviaeg algas 2 kuni 5 miljonit aastat tagasi. Kiviajale järgnes pronksiaeg, mille vältel said tavaliseks pronksist tööriistad. Üleminek pronksiajale leidis aset 6000 kuni 2500 eKr. Termin 'kiviaeg' pärineb kolme perioodi süsteemist. Tänapäeval jaotatakse kiviaeg paleoliitikumiks ehk vanemaks kiviajaks, mesoliitikumiks ehk keskmiseks kiviajaks ja neoliitikumiks ehk nooremaks kiviajaks. Nendel on omakorda alajaotused. Kiviaja alajaotuste kronoloogia on piirkonniti erinev.">
+                    <img src="path/to/tulekivi.jpg" alt="Tulekivi">
+                    <p>Tulekivi</p>
+                </div>
+
+                <div class="artifact-option" data-id="6" data-title="Linnamäe leid" data-full-description="Linnamägi on looduslik seljak või küngas, millel asus linnus või kindlustatud asula.">
+                    <img src="path/to/linnamae_leid.jpg" alt="Linnamäe leid">
+                    <p>Linnamäe leid</p>
+                </div>
+
+                <div class="artifact-option" data-id="7" data-title="Hõberaha" data-full-description="Hõbemünt on münt, mis sisaldab oma kaalust üle 500 tuhandiku (500‰ ehk 50%) puhast hõbedat. Münti, mille hõbedasisaldus on väiksem, nimetatakse biljoonmündiks. Tänapäeval on hõbemündid täielikult asendatud mitteväärismetallist müntidega ning hõbe- ega ka kuldmünte enam igapäevases käibes ei leidu.">
+                    <img src="path/to/hõberaha.jpg" alt="Hõberaha">
+                    <p>Hõberaha</p>
+                </div>
+
+                <div class="artifact-option" data-id="8" data-title="Luust nooleots" data-full-description="Nool on terava otsaga varb, mida kasutatakse tavaliselt vibust, ammust või puhkpüssist lendu laskmiseks. Nooli on inimesed kasutatud jahipidamisel saaklooma või -linnu tabamiseks, võitluses teiste inimestega, täpsuslaskmisel või -viskamisel märklaua pihta.">
+                    <img src="path/to/luust_nooleots.jpg" alt="Luust nooleots">
+                    <p>Luust nooleots</p>
+                </div>
+
+                <div class="artifact-option" data-id="9" data-title="Helmed" data-full-description="Vanimad kunstmaterjalidest helmed on keraamilised, valmistatud kas põletatud savist, keraamilisest massist (egiptuse pasta) või klaasist. Ehedana loodusest leiduvast metallist (kuld, hõbe) helmeste kõrval valmistati suhteliselt varakult helmeid ka eri metallide sulamitest (elektron, pronks, messing), kuid eriti viimased olid kergemini oksüdeeruvad ning neid on muististest leitud vähem.">
+                    <img src="path/to/helmed.jpg" alt="Helmed">
+                    <p>Helmed</p>
+                </div>
+
+                <div class="artifact-option" data-id="10" data-title="Kultusekivi" data-full-description="Kultuskivi on kivi, mille peal või juures on sooritatud kultustalitusi. Uskumustega seotud kivirahn, millel on sellele osutav rahvapärane nimi (Ohvri-, Tohtri-, Hiie-, Maalja-, Kabeli-, Tondi-, Uku-, Kõrva-, Litrekivi) või mille pinnal leidub looduslikke või tehissüvendeid (lohke, nn jälgi). Paljude kivide kohta teatakse muistendeid. Eestis registreeritud rohkem kui 1700 kultuskivist on enamik (1300) väikeselohulised.">
+                    <img src="path/to/kultusekivi.jpg" alt="Kultusekivi">
+                    <p>Kultusekivi</p>
+                </div>
+
+                <div class="artifact-option" data-id="11" data-title="Luud" data-full-description="Luud ehk kondid (os, mitmuses ossa) on luukalade, kahepaiksete, roomajate, lindude ja imetajate (sealhulgas inimese) luustikku kuuluvad kõvad, veidi elastsed, värskes olekus kollakasvalged elundid. Luude kuju ja ehitust käsitleb osteoloogia ehk luuõpetus. Luude koostismaterjaliks on peamiselt luukude.">
+                    <img src="path/to/luud.jpg" alt="Luud">
+                    <p>Luud</p>
+                </div>
+
+                <div class="artifact-option" data-id="12" data-title="Muud esemed/Spetsialist" data-full-description="Kui ei leidnud oma esemele sarnast pilti, siis võta ühendust omaala spetsialistiga (nt. Muinsuskaitseamet või kohalik muuseum).">
+                    <img src="path/to/muud_esemed.jpg" alt="Muud esemed">
+                    <p>Muu/Spetsialist</p>
+                </div>
+            </div>
+
+            <p class="disclaimer">Tähelepanu! Tegu on näidisgalerii andmetega. Täpseks tuvastuseks pöörduge palun spetsialisti poole.</p>
+        </section>
+
+        <section class="results-section">
+            <h2 id="info-header">Valitud eseme detailne teave</h2>
+            <div id="info-display" class="artifact-card">
+                <p>Palun kliki galeriis esemel, et näha selle detailset kirjeldust.</p>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <p>&copy; Projekti Meeskond AH?</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muinasleiu Tuvastaja</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>🔍 Muinasleiu Tuvastaja</h1>
+        <p>Kas leidsid midagi põnevat? Vali sarnane ese, et teada saada, millega võib olla tegu!</p>
+    </header>
+
+    <main>
+        <section id="esemete-galerii">
+            <div class="ese" id="pronkskirves" data-info="Pronkskirves: Pronksiaeg on esiaja keskmine põhiaeg kiviaja ja rauaaja vahel. Eri piirkondades dateeritakse pronksiaja kestus erinevalt. See algas, kui tähtsaima tööriistamaterjalina tuli kasutusele pronks. Ajastu lõpp paigutatakse aga perioodi, kus raud hakkas oma tähtsuselt pronksi ületama. Pronksiajal jätkus maaviljeluse areng ja levimine, koos sellega muutus asustus paiksemaks ja rajati kindlustatud asulaid. Arenes kaubitsemine. Võeti kasutusele uusi tööriistu (putkkirves), relvi (mõõk) ja ehteid (sõlg). Rohkenes matmine kääbaskalmistuisse, nooremal pronksiajal levis surnute põletamine. Hilisel pronksiajal hakkas stepialadele sugenema rändkarjakasvatus. Arenenumates piirkondades oli juba tekkinud või tekkimas riik.">
+                <img src="path/to/pronkskirves.jpg" alt="Pronkskirves" class="eseme-pilt">
+                <p>Pronkskirves</p>
+            </div>
+
+            <div class="ese" id="solg" data-info="Sõlg: Sõlg on siledaservaline, üldjuhul metallist (luust või muust materjalist sõled on erandlikud) rõivakinnitusvahend ja rinnaehe, tuntud alates pronksiajast. Koosneb sõlekehast ja kinnitusnõelast. Aegade jooksul on muutunud sõlgede kuju ja kaunistused, samuti erinesid nad piirkonniti. Materjalide hulgas on esindatud kõik metallid, kuld, hõbe, pronks, vask, raud, uusimal ajal ka uushõbe või muu sulammaterjal.">
+                <img src="path/to/solg.jpg" alt="Sõlg" class="eseme-pilt">
+                <p>Sõlg</p>
+            </div>
+
+            <div class="ese" id="keraamika" data-info="Keraamika killud: Kammkeraamika on keraamika stiil, mis oli levinud neoliitilises Kirde-Euroopas ja mille järgi on saanud nime seda valmistanud kammkeraamika kultuur. Eestis valmistati kammkeraamikat aastatel 3900–1750 eKr, kusjuures tüüpilist kammkeraamikat valmistati 3900–3100 eKr ja hilist kammkeraamikat 3700–1750 eKr. [1][2] Kammkeraamika ei olnud esimene keraamika tüüp, mida Eesti alal valmistama hakati. Sellele eelnes Narva tüüpi keraamika (5200–3900 eKr). Kammkeraamika kultuuri kiire ja ulatuslikul alal välja kujunemise taga nähakse sisserändeid Eestisse ida poolt, ent kindlasti oli oluline ka kohalike elanike roll. Eelnenud Narva kultuuri inimeste osalusele kultuuri väljakujunemisel viitavad varasemate lokaalsete keraamikarühmade, Eesti puhul Narva tüüpi keraamika, mõjud tüüpilise kammkeraamika valmistamisel. Hilise kammkeraamikaga samal ajal valmistati ka nöörkeraamikat (2800–2000 eKr), kusjuures kamm- ja nöörkeraamikat valmistanud inimesed elasid kõrvuti sadu aastaid, ent olid erineva asustus- ja majandusviisiga.">
+                <img src="path/to/keraamika.jpg" alt="Keraamika killud" class="eseme-pilt">
+                <p>Keraamika killud</p>
+            </div>
+
+            <div class="ese" id="viikingimoõk" data-info="Viikingite mõõk: Viikingimõõk ehk karoling oli varakeskajal Lääne- ja Põhja-Euroopas levinud mõõgatüüp. Viikingimõõk ehk karolingide mõõk arenes välja 8. sajandil merovingide mõõgast, mis kujult ja dünaamikalt sarnanes Rooma ratsaväe spathaga ja pani omakorda aluse kõrgkeskaegsele rüütlimõõgale. Skandinaavia teadlane Jan Petersen on koostanud viikingimõõkade tüpoloogia, mida kasutatakse laialdaselt siiani kogu Euroopas. Peterseni tüpoloogia järgi on enamik varase viikingiaja Eesti territooriumil leitud mõõkadest H-tüüpi. Huvitav on fakt, et Peterseni tüüp AE viikingimõõkasid kasutati siinkandis veel paar sajandit hiljem, pärast viikingiaega, eestlaste muistse vabadusvõitluse perioodil. [1] Petersen töötas välja viikingimõõkade tüpoloogia, [2] mida kasutatakse siiani laialdaselt kogu maailmas nende klassifitseerimiseks, dateerimiseks ja ajaloouuringutes. Viikingimõõkade ehituse iseärasuseks on keeduterase (võltsdamaskuse) tehnoloogia kasutamine, sest kvaliteetset terast tollal nappis ja seda toodi Euroopasse peamiselt Kesk-Aasiast, kus leiutati ja võeti 8. sajandil kasutusele tiigelahjudega rauasulatus.">
+                <img src="path/to/viikingimoõk.jpg" alt="Viikingite mõõk" class="eseme-pilt">
+                <p>Viikingite mõõk</p>
+            </div>
+
+            <div class="ese" id="tulekivi" data-info="Tulekivi: Kiviaeg on muinasaja periood enne metallide töötlemise leiutamist, mil inimesed valmistasid tööriistu (parema tehnika puudumisel) enamasti kivist. Kivi, mida tööriistade valmistamiseks kasutati, võis olla tulekivi, obsidiaan, mõni kiltkivi või mõni kristalliin kivi. Kiviaeg on palju pikem kui kõik teised inimkonna ajaloo perioodid ning selles osalesid mitmed inimese bioloogilised liigid. Kiviaja alguseks loetakse tavaliselt hetke, mil inimese tehnika ületas šimpansi oma. Kiviaja kronoloogilised piirid ei ole üheselt kindlaks määratud. Nad on vaieldavad ja sõltuvad piirkonnast, millega on tegemist. Üldiselt siiski arvatakse, et kiviaeg algas 2 kuni 5 miljonit aastat tagasi. Kiviajale järgnes pronksiaeg, mille vältel said tavaliseks pronksist tööriistad. Üleminek pronksiajale leidis aset 6000 kuni 2500 eKr. Termin 'kiviaeg' pärineb kolme perioodi süsteemist. Tänapäeval jaotatakse kiviaeg paleoliitikumiks ehk vanemaks kiviajaks, mesoliitikumiks ehk keskmiseks kiviajaks ja neoliitikumiks ehk nooremaks kiviajaks. Nendel on omakorda alajaotused. Kiviaja alajaotuste kronoloogia on piirkonniti erinev.">
+                <img src="path/to/tulekivi.jpg" alt="Tulekivi" class="eseme-pilt">
+                <p>Tulekivi</p>
+            </div>
+
+            <div class="ese" id="linnamae-leid" data-info="Linnamäe leid: Linnamägi on looduslik seljak või küngas, millel asus linnus või kindlustatud asula.">
+                <img src="path/to/linnamae_leid.jpg" alt="Linnamäe leid" class="eseme-pilt">
+                <p>Linnamäe leid</p>
+            </div>
+
+            <div class="ese" id="hõberaha" data-info="Hõberaha: Hõbemünt on münt, mis sisaldab oma kaalust üle 500 tuhandiku (500‰ ehk 50%) puhast hõbedat. Münti, mille hõbedasisaldus on väiksem, nimetatakse biljoonmündiks. Tänapäeval on hõbemündid täielikult asendatud mitteväärismetallist müntidega ning hõbe- ega ka kuldmünte enam igapäevases käibes ei leidu.">
+                <img src="path/to/hobemunt.jpg" alt="Hõberaha" class="eseme-pilt">
+                <p>Hõberaha</p>
+            </div>
+
+            <div class="ese" id="luust-nooleots" data-info="Luust nooleots: Nool on terava otsaga varb, mida kasutatakse tavaliselt vibust, ammust või puhkpüssist lendu laskmiseks. Nooli on inimesed kasutatud jahipidamisel saaklooma või -linnu tabamiseks, võitluses teiste inimestega, täpsuslaskmisel või -viskamisel märklaua pihta.">
+                <img src="path/to/luust_nooleots.jpg" alt="Luust nooleots" class="eseme-pilt">
+                <p>Luust nooleots</p>
+            </div>
+
+            <div class="ese" id="helmed" data-info="Helmed: Vanimad kunstmaterjalidest helmed on keraamilised, valmistatud kas põletatud savist, keraamilisest massist (egiptuse pasta) või klaasist. Ehedana loodusest leiduvast metallist (kuld, hõbe) helmeste kõrval valmistati suhteliselt varakult helmeid ka eri metallide sulamitest (elektron, pronks, messing), kuid eriti viimased olid kergemini oksüdeeruvad ning neid on muististest leitud vähem.">
+                <img src="path/to/helmed.jpg" alt="Helmed" class="eseme-pilt">
+                <p>Helmed</p>
+            </div>
+
+            <div class="ese" id="kultusekivi" data-info="Kultusekivi: Kultuskivi on kivi, mille peal või juures on sooritatud kultustalitusi. Uskumustega seotud kivirahn, millel on sellele osutav rahvapärane nimi (Ohvri-, Tohtri-, Hiie-, Maalja-, Kabeli-, Tondi-, Uku-, Kõrva-, Litrekivi) või mille pinnal leidub looduslikke või tehissüvendeid (lohke, nn jälgi). Paljude kivide kohta teatakse muistendeid. Eestis registreeritud rohkem kui 1700 kultuskivist on enamik (1300) väikeselohulised.">
+                <img src="path/to/kultusekivi.jpg" alt="Kultusekivi" class="eseme-pilt">
+                <p>Kultusekivi</p>
+            </div>
+
+            <div class="ese" id="luud" data-info="Luud: Luud ehk kondid (os, mitmuses ossa) on luukalade, kahepaiksete, roomajate, lindude ja imetajate (sealhulgas inimese) luustikku kuuluvad kõvad, veidi elastsed, värskes olekus kollakasvalged elundid. Luude kuju ja ehitust käsitleb osteoloogia ehk luuõpetus. Luude koostismaterjaliks on peamiselt luukude.">
+                <img src="path/to/luud.jpg" alt="Luud" class="eseme-pilt">
+                <p>Luud</p>
+            </div>
+
+            <div class="ese" id="muud-esemed" data-info="Muu: Kui ei leidnud oma esemele sarnast pilti, siis võta ühendust omaala spetsialistiga (nt. muinsuskaitseamet või kohalik muuseum).">
+                <img src="path/to/muud_esemed.jpg" alt="Muud esemed" class="eseme-pilt">
+                <p>Muu/Spetsialist</p>
+            </div>
+        </section>
+
+        <section id="info-ala">
+            <h2>📜 Valitud eseme teave</h2>
+            <div id="eseme-info">
+                <p>Kliki galeriis esemel, et näha selle kirjeldust ja ajastut.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Arheoloogia infoleht. Pea meeles: väärtuslikest leidudest tuleb teavitada!</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
